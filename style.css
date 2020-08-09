@@ -1,3 +1,7 @@
+/* Rocketseat's NLW Landing Page Clone */
+/* This layout refers to OmniStack Trail */
+/* The Discovery Trail settings are commented */
+
 /* Geral */
 :root {
     --primary: rgb(130, 87, 230);
@@ -736,7 +740,8 @@ main .aulas-wrapper .aulas-grid {
     display: grid;
     grid-auto-flow: column;
     grid-auto-rows: 1fr;
-    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    grid-template-columns: repeat(4, minmax(0px, 256px));
+    /* grid-template-columns: repeat(3, minmax(0px, 1fr)); */
     -webkit-box-pack: center;
     justify-content: center;
     justify-items: center;
@@ -790,7 +795,7 @@ main .aulas-wrapper .aulas-grid a > .card-inner > h3 {
 }
 
 main .aulas-wrapper .aulas-grid a > .card-inner > p {
-    max-width: 188px;
+    /* max-width: 188px; */
     font-size: 14px;
     line-height: 24px;
     text-align: center;
