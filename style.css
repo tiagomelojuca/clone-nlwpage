@@ -1,5 +1,6 @@
 /* Geral */
 :root {
+    --primary: rgb(130, 87, 230);
     --secondary: rgb(4, 211, 97);
     /* --secondary: rgb(253, 149, 31); */
 }
@@ -800,7 +801,7 @@ main .aulas-wrapper .aulas-grid a > .card-inner > p {
 main .aulas-wrapper .aulas-grid a > .card-inner > svg {
     width: 24px;
     height: 24px;
-    color: rgb(130, 87, 230);
+    color: var(--primary);
     transition: all 200ms ease 0s;
 }
 
